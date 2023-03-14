@@ -7,6 +7,7 @@ endCounter = 10000000
 arValues = []
 valTotal = 0
 adc = ADC(26)
+pin_led = Pin(20, mode=Pin.OUT, value=1) 
 
 utime.sleep(3)
 while True:

@@ -12,3 +12,12 @@
 - build this package `colcon build`
 - `source install/setup.bash`
 - `ros2 run serial_publisher serial_publisher`
+
+
+# Pin config
+
+- pico (36) ----> ACS712 (VCC)
+- pico (38) ----> ACS712 (GND)
+- pico (31)(GPIO26 - A0) ----> ACS712 (OUT)
+
+![schematic](serial_bb.png)
